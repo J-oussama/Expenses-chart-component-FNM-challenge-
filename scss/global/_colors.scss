@@ -1,0 +1,23 @@
+
+:root 
+{ 
+  // Primary
+  --c-soft-red: hsl(10, 79%, 65%);
+  --c-hover-rec : hsl(10, 97%, 85%);
+  --c-cyan: hsl(186, 34%, 60%);
+  // Netural
+
+  --c-dark-brown : hsl(25, 47%, 15%);
+  --c-medium-brown: hsl(28, 10%, 53%);
+  --c-cream: hsl(27, 66%, 92%);
+  --c-very-pale-orange: hsl(33, 100%, 98%);
+
+  // font 
+  --font-size: 18px;
+}
+body 
+{ 
+  background-color: var(--c-cream);
+}
+
+

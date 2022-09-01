@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="dist/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="main.js"></script>
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <!-- 
+  My balance
+  $921.48
+
+  Spending - Last 7 days
+
+  mon
+  tue
+  wed
+  thu
+  fri
+  sat
+  sun
+
+  Total this month
+  $478.33
+
+  +2.4%
+  from last month
+   -->
+
+    <main>
+      <div class="header">
+        <div class="header__balance">
+          <p class="header__balance__title">My blance</p>
+          <div class="header__balance__amount">$921.48</div>
+        </div>
+        <div class="header__circle">
+          <div class="circle1"></div>
+          <div class="circle2"></div>
+        </div>
+      </div>
+      <!-- header end -->
+      <div class="main-section">
+        <h2 class="main-section__title">Spending - Last 7 Day</h2>
+        <div class="main-section__graphe"></div>
+        <!-- char end -->
+        <div class="line"></div>
+        <p class="this-month">Total this month</p>
+        <div class="footer">
+          <div class="footer__left">$478.33</div>
+          <div class="footer__right">
+            <p class="percentage">+2.4%</p>
+            <p class="this-month last">from this month</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- main class end -->
+    </main>
+  </body>
+</html>
